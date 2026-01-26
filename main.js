@@ -49,3 +49,65 @@ console.log(second);
       function divide() { 
         console.log(4 / 4); 
       } 
+
+    document.getElementById("button_1").addEventListener("click", sum);
+    document.getElementById("button_2").addEventListener("click", multiplication);
+    document.getElementById("button_3").addEventListener("click", divide);
+
+
+// დავალება 8.7
+
+ function myFunc() { 
+        console.log('საინტერესო შეტყობინება'); 
+      }
+   document.getElementById("elem1").addEventListener("click", myFunc);
+    document.getElementById("elem2").addEventListener("click", myFunc);
+    document.getElementById("elem3").addEventListener("click", myFunc);
+
+//დავალება 8.8
+
+  function myFunc1() { 
+        alert('საინტერესო შეტყობინება'); 
+      } 
+ 
+      function myFunc2() { 
+        console.log('სუპერ ღილაკზე მოხდა დაკლიკება'); 
+      } 
+
+document.getElementById("button1").addEventListener("click", myFunc2);
+
+//დავალება 9.9
+
+ function myFunc1() { 
+        alert('შეტყობინება 1'); 
+      } 
+      function myFunc2() { 
+        alert('შეტყობინება 2'); 
+      } 
+      function myFunc3() { 
+        alert('შეტყობინება 3'); 
+      } 
+      document.getElementById("myText").addEventListener("click", function() {
+      myFunc1();
+      myFunc2();
+      myFunc3();
+    });
+
+    //დავალება 10
+   
+    //ვერსია 1
+
+   //  let count = 0;
+
+   //  document.getElementById("button_2").addEventListener("click",function(){
+   //    count++;
+   //    if(count == 2){
+   //       console.log("სუპერ ღილაკზე მოხდა ორმაგი დაკლიკება")
+   //     }
+   //  })
+
+   //ვერსია 2
+
+  document.getElementById("button_2").addEventListener("dblclick", function() {
+  console.log("სუპერ ღილაკზე მოხდა ორმაგი დაკლიკება");
+});

@@ -49,3 +49,15 @@
 #btn3:active{
     background-color: hsl(240, 100%, 80%);
 }
+
+/* დავალება 8.7 */
+
+#elem1,#elem2,#elem3{
+    cursor: pointer;
+}
+
+/* დავალება 9.9 */
+
+#myText{
+    cursor: pointer;
+}
