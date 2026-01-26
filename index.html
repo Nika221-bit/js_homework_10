@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<input id="button" type="submit" value="Click me" onclick="clickMe()">   
+<script> 
+//დავალება  8.1 
+
+//ვერსია 1
+//    const btn = document.querySelector("#button");
+//    let myButton = btn.value;
+//    console.log(myButton)
+
+//ვერსია 2 
+
+    function clickMe() {
+      const btn = document.querySelector("#button");
+      let myButton = btn.value;
+      console.log(myButton);
+   }
+</script>
+ <!-- დავალება 8.2 -->
+   <p id="p1">აბზაცი1</p> 
+    <p id="p2">აბზაცი2</p> 
+    <p id="p3">აბზაცი3</p> 
+
+  <!-- დავალება 8.3 -->
+  <div id="twoParagraphs"> 
+      <p>პირველი აბზაცი</p> 
+      <p>მეორე აბზაცი</p> 
+    </div> 
+
+ <!-- დავალება 8.4 -->
+
+  <p class="p">text1</p> 
+    <p class="p">text2</p>
+
+<!-- დავალება 8.5 -->
+<!-- აქ ღილაკებს სახელები მეთვითონ დავარქვი -->
+    <div id="btns">
+        <button id="btn1" onclick="button1()">პირველი ღილაკი</button>
+        <button id="btn2" onclick="button2()">მეორე ღილაკი</button>
+        <button id="btn3" onclick="button3()">მესამე ღილაკი</button>
+    </div> 
+
+<!-- დავალება 8.6 -->
+ 
+    <input id="button_1" type="submit" value="2 + 2"  onclick="sum()"> 
+    <input id="button_2" type="submit" value="3 * 3 " onclick="multiplication()"> 
+    <input id="button_3" type="submit" value="4 / 4 " onclick="divide()"> 
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
