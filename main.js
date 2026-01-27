@@ -113,6 +113,23 @@ document.getElementById("button_pointer").addEventListener("mouseover",function(
 
 //დავალება 8.12
 
+document.getElementById("button_pointer").addEventListener("mouseout",function(){
+   console.log('სუპერ ღილაკიდან მოხდა მაუსის მოცილება')
+})
 
+//დავალება 8.13
+
+
+  document.getElementById("button_both").addEventListener("mouseover",function(){
+   console.log("სუპერ ღილაკზე მოხდა მაუსის გადატარება")
+})
+document.getElementById("button_both").addEventListener("mouseout",function(){
+   console.log('სუპერ ღილაკიდან მოხდა მაუსის მოცილება')
+})
+
+//დავალება 8.14
+
+ const myElem = document.querySelector("#myText");
+  myElem.textContent = "ახალი პარაგრაფი";
 
 
