@@ -66,7 +66,7 @@ console.log(second);
 
 //დავალება 8.8
 
-  function myFunc1() { 
+  function myFunc_1() { 
         alert('საინტერესო შეტყობინება'); 
       } 
  
@@ -76,7 +76,7 @@ console.log(second);
 
 document.getElementById("button1").addEventListener("click", myFunc2);
 
-//დავალება 9.9
+//დავალება 8.9
 
  function myFunc1() { 
         alert('შეტყობინება 1'); 
@@ -93,21 +93,18 @@ document.getElementById("button1").addEventListener("click", myFunc2);
       myFunc3();
     });
 
-    //დავალება 10
+    //დავალება 8.10
    
-    //ვერსია 1
+  let count = 0; 
 
-   //  let count = 0;
+  function double(){
+    count++;
+    if(count === 2){
+      console.log("სუპერ ღილაკზე მოხდა ორმაგი დაკლიკება");
+      count = 0;
+    }
+  }
 
-   //  document.getElementById("button_2").addEventListener("click",function(){
-   //    count++;
-   //    if(count == 2){
-   //       console.log("სუპერ ღილაკზე მოხდა ორმაგი დაკლიკება")
-   //     }
-   //  })
 
-   //ვერსია 2
 
-  document.getElementById("button_2").addEventListener("dblclick", function() {
-  console.log("სუპერ ღილაკზე მოხდა ორმაგი დაკლიკება");
-});
+
