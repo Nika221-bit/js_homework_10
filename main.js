@@ -93,7 +93,7 @@ document.getElementById("button1").addEventListener("click", myFunc2);
       myFunc3();
     });
 
-    //დავალება 8.10
+//დავალება 8.10
    
   let count = 0; 
 
@@ -104,6 +104,14 @@ document.getElementById("button1").addEventListener("click", myFunc2);
       count = 0;
     }
   }
+
+//დავალება 8.11
+
+document.getElementById("button_pointer").addEventListener("mouseover",function(){
+   console.log("სუპერ ღილაკზე მოხდა მაუსის გადატარება")
+})
+
+//დავალება 8.12
 
 
 
