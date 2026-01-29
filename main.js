@@ -20,7 +20,7 @@ console.log(meore);
 
 //დავალება 8.4
 
-const first = document.querySelector(".p ");
+const first = document.querySelector(".p");
 const second = first.textContent;
 console.log(second);
 
@@ -40,19 +40,30 @@ console.log(second);
 
 //დავალება 8.6
 
-   function sum() { 
-        console.log(2 + 2); 
-      } 
-      function multiplication() { 
-        console.log(3 * 3); 
-      } 
-      function divide() { 
-        console.log(4 / 4); 
-      } 
+   function sum() {
+    console.log(2 + 2);
+  }
 
-    document.getElementById("button_1").addEventListener("click", sum);
-    document.getElementById("button_2").addEventListener("click", multiplication);
-    document.getElementById("button_3").addEventListener("click", divide);
+  function multiplication() {
+    console.log(3 * 3);
+  }
+
+  function divide() {
+    console.log(4 / 4);
+  }
+
+  document.getElementById("button_1").addEventListener("click", function() {
+    sum();
+  });
+
+  document.getElementById("button_2").addEventListener("click", function() {
+    multiplication();
+  });
+
+  document.getElementById("button_3").addEventListener("click", function() {
+    divide();
+  });
+
 
 
 // დავალება 8.7
@@ -60,9 +71,9 @@ console.log(second);
  function myFunc() { 
         console.log('საინტერესო შეტყობინება'); 
       }
-   document.getElementById("elem1").addEventListener("click", myFunc);
-    document.getElementById("elem2").addEventListener("click", myFunc);
-    document.getElementById("elem3").addEventListener("click", myFunc);
+   document.getElementById("elem1").addEventListener("click", function(){myFunc()});
+    document.getElementById("elem2").addEventListener("click", function(){myFunc()});
+    document.getElementById("elem3").addEventListener("click", function(){myFunc()});
 
 //დავალება 8.8
 
@@ -74,7 +85,7 @@ console.log(second);
         console.log('სუპერ ღილაკზე მოხდა დაკლიკება'); 
       } 
 
-document.getElementById("button1").addEventListener("click", myFunc2);
+document.getElementById("button1").addEventListener("click", function(){myFunc_1(),myFunc2()});
 
 //დავალება 8.9
 
