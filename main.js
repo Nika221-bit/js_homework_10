@@ -132,4 +132,9 @@ document.getElementById("button_both").addEventListener("mouseout",function(){
  const myElem = document.querySelector("#myText");
   myElem.textContent = "ახალი პარაგრაფი";
 
+//დავალება 8.15
+
+function readParagraph() {
+   const text = document.getElementById("myParagraph").innerText;
+    console.log(text); }
 
