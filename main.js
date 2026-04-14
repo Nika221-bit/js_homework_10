@@ -1,3 +1,4 @@
+
 //დავალება 8.2
 
 const p1 = document.querySelector("#p1");
