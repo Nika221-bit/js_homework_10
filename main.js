@@ -6,7 +6,6 @@ const p2 = document.querySelector("#p2");
 const p3 = document.querySelector("#p3");
 
 
-
 let text1 = p1.textContent;
 let text2 = p2.textContent;
 let text3 = p3.textContent;
